@@ -42,7 +42,8 @@ function TodoList() {
 
   return (
     <>
-      <h1>What's the Plan for Today?</h1>
+      <h1>Ida Bagus Anom Mudita</h1>
+      <h2 className='h2-todo-list'>Todo List</h2>
       <TodoForm onSubmit={addTodo} />
       <Todo
         todos={todos}
